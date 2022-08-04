@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    min-height: 100vh;
+    background: url(/Assets/pic1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.btnnn {
+    padding: 12px 20px 12px 20px;
+ 
+    margin-left: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600 ;
+}
+
+.btnn {
+    background: black;
+    color: white;
+    padding: 12px 20px 12px 20px;
+  
+    margin-left: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+}
+
+.heading h2{
+    margin-top: 150px;
+    margin-left: 30px;
+    font-size: 55px;
+    font-weight: 600;
+    color: black;
+}
+
+.dropdown > button {
+    background:white;
+    color:black;
+    border: none !important;
+    border-radius: 0px;
+    padding: 10px;
+    padding-right:  40px;
+    padding-left:  40px;
+    font-size: 20px;
+}
+
+.dropdown > button:hover {
+    background:white;
+    color:black;
+    box-shadow: none;
+}
+
+.dropdown > button:active {
+  box-shadow: none;
+  outline: none;
+  background:white !important;
+    color:black;
+}
+.dropdown > button:focus {
+  box-shadow: none;
+  outline: none;
+  background:white !important;
+    color:black;
+}
+
+
+.srch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+
+input {
+    padding: 13px;
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+input:focus{
+    border-bottom: 2px solid black;
+
+}
+
+
+.container-fluid .btn  {
+    margin-left: 10px;
+    padding: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+    border: none;
+}
+
+.container-fluid .btn:hover {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.main p {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.main a {
+    color: black;
+}
+
+.main a:hover {
+    color: black;
+}
+
+
+
+.main-2 .cd {
+    min-height: 70vh;
+    display: flex;
+  
+}
+
+.main-2 .card{
+    margin-left: 45px;
+    margin-top: 70px;
+    height: 55%;
+    border: none;
+  
+}
+
+.main-2 .card h2 {
+    font-weight: bold;
+    margin-left: -20px;
+    color: black;
+}
+
+.main-2 .card a {
+    color: black;
+    margin-left: -20px;
+}
+

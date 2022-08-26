@@ -170,3 +170,73 @@ input:focus{
     margin-left: -20px;
 }
 
+
+@media only screen and (max-width: 602px)  {
+    .heading h2{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 599px) {
+    .srch .dropdown {  
+        display: none;
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 378px) {
+    .nav-links {
+        display: none;
+    }
+
+    .heading h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .heading h2 {
+        font-size: 30px;
+    }
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .d-flex .srh {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .d-flex .btn {
+        width: 40%;
+        margin-left: 0;
+        font-size: 18px;
+        padding: 5px 10px 5px;
+    }
+
+}
+
+@media only screen and (max-width:770px){
+    .main-2 .cd{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-2 .cd .card {
+        width: 50% !important;
+    }
+}
+
+@media only screen and (max-width:669px){
+   .main-2 .cd .card{
+        width: 50% !important;
+        font-size: 12px;
+    }
+
+    .main-2 .cd .card h2 {
+        font-size: 20px;
+    }
+}
